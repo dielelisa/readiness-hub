@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .step { font: 700 22px Arial, sans-serif; fill: #222; }
+    .box { fill: #f9fafb; stroke: #cbd5e1; stroke-width: 2; rx: 12; }
+    .arrow { stroke: #64748b; stroke-width: 3; marker-end: url(#arrowhead); fill: none; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="20" y="40" width="180" height="80"/>
+  <text class="step" x="40" y="90">Identify</text>
+
+  <line class="arrow" x1="200" y1="80" x2="250" y2="80"/>
+
+  <rect class="box" x="250" y="40" width="220" height="80"/>
+  <text class="step" x="270" y="90">Prioritize &amp; Route</text>
+
+  <line class="arrow" x1="470" y1="80" x2="520" y2="80"/>
+
+  <rect class="box" x="520" y="40" width="200" height="80"/>
+  <text class="step" x="540" y="90">Enable &amp; Reply</text>
+
+  <line class="arrow" x1="720" y1="80" x2="770" y2="80"/>
+
+  <rect class="box" x="770" y="40" width="220" height="80"/>
+  <text class="step" x="790" y="90">Close the Loop</text>
+</svg>
